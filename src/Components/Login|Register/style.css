@@ -1,0 +1,27 @@
+body
+{
+	text-align: center;
+}
+
+form
+{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: #E3E0F3;
+	margin: auto;
+  	width: 20%;
+  	height: 500px;
+  	padding: 10px;
+}
+
+input
+{
+	height: 20px;
+	background-color: #8685EF;
+	color: #FAF7FF;
+}
+p
+{
+	color: red;
+}
