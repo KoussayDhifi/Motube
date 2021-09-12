@@ -1,9 +1,42 @@
+import ReactPlayer from 'react-player'
+import {BroswerRouter as Router , Switch, Link} from 'react-router-dom'
+import {useEffect,useState,useContext} from 'react'
+import React from 'react'
 
-const Home = () => {
+
+
+const Home = ({videos}) => {
+
+
+	console.log(videos)
+
+
 
 	return (
 		<>
-			<h1>This is home</h1>
+
+
+			{
+
+
+				videos.map((d)=>{
+					return(
+
+						<table>
+							<tr>
+								<td>
+									<Link to={{pathname:`/Videos/${d.title}`}}>{d.title}</Link>
+								</td>
+							</tr>
+
+						</table>
+
+					)
+				})
+
+			}
+
+
 
 		</>
 	)

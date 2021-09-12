@@ -1,0 +1,25 @@
+.likes
+{
+	padding-right: 2em;
+}
+
+.like
+{
+	width: 16px;
+	padding-right: 2em;
+}
+
+.dislike
+{
+	width: 16px;
+}
+
+.like:hover
+{
+	cursor: pointer;
+}
+
+.dislike:hover
+{
+	cursor: pointer;
+}
